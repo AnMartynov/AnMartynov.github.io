@@ -92,61 +92,6 @@
         margin: 0 auto;
     }
 
-    .myTitle{
-        color: white;
-        font-size: 40px !important;
-        font-family: 'Gilroy' !important;
-        font-weight: bold !important;
-        text-align: center;
-        margin-bottom: 0px !important;
-    }
-    
-    .mySubTitle{
-        color: #757575;
-        font-size: 25px !important;
-        font-family: 'Gilroy';
-        font-weight: 300;
-        font-style: italic;
-        margin: 20px 0 5px 0 !important;
-    }
-
-    .booksWrapper{
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .bookWrapper{
-        background: #ebebeb;
-        color: #676767;
-        cursor: pointer;
-        display: flex;
-        font-family: 'Gilroy';
-        font-size: 30px;
-        font-weight: 200;
-        font-style: italic;
-        justify-content: center;
-        flex-direction: column;
-        line-height: 2;
-        height: 40vh;
-        text-align: center;
-        width: 30%;
-    }
-
-    .bookWrapper1:hover{
-        background: #f6e9d8;
-        border: 3px solid #A07946;
-    }
-
-    .bookWrapper2:hover{
-        background: #ccdddd;
-        border: 3px solid #429090;
-    }
-
-    .bookWrapper3:hover{
-        background: #ede8f7;
-        border: 3px solid #674BA1;
-    }
-
     .book{
         float: left;
         height: 200px;

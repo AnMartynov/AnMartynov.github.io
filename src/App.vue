@@ -111,6 +111,10 @@
         font-weight: 500;
     }
 
+    body{
+        overflow: hidden;
+    }
+
     .pageWrap{
         background-color: #161616 !important;
     }

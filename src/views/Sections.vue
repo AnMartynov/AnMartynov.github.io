@@ -3,7 +3,7 @@
         <p class="myTitle">Книги</p>
         
         <p class="mySubTitle">Русский язык</p>
-        <div class="booksWrapper">
+        <div class="clearfix">
             <div class="bookWrapper bookWrapper1"
                 @click="$router.push('/sections/1')">
                 Романы
@@ -19,7 +19,7 @@
         </div>
         
         <p class="mySubTitle">English language</p>
-        <div class="booksWrapper">
+        <div class="clearfix">
             <div class="bookWrapper bookWrapper1"
                 @click="$router.push('/sections/4')">
                 Novels
@@ -35,7 +35,7 @@
         </div>
         
         <p class="mySubTitle">Русский язык / English language</p>
-        <div class="booksWrapper">
+        <div class="clearfix">
             <div class="bookWrapper bookWrapper1"
                 @click="$router.push('/sections/7')">
                 Романы <br> Novels
@@ -95,11 +95,6 @@
         font-style: italic;
         margin: 20px 0 5px 0 !important;
     }
-
-    .booksWrapper{
-        display: flex;
-        justify-content: space-between;
-    }
     
     .bookWrapper{
         background: #ebebeb;
@@ -115,7 +110,9 @@
         line-height: 2;
         height: 40vh;
         text-align: center;
-        width: 30%;
+        width: 40vh;
+        float: left;
+        margin: 10px;
     }
 
     .bookWrapper1:hover{
@@ -131,5 +128,11 @@
     .bookWrapper3:hover{
         background: #ede8f7;
         border: 3px solid #674BA1;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
     }
 </style>
