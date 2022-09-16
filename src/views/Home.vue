@@ -1,17 +1,14 @@
 <template>
-    <div>
-        <div class="infWrapper">
-            <p class="myName">Андрей Мартынов</p>
-            <p class="myPosition">Школьный учитель / Писатель / Член Союза писателей</p>
-            <div class="underLine">&nbsp;</div>
-            <a href="mailto:nadym7@mail.ru" class="myIcon">
-                <v-icon>mdi-email</v-icon> nadym7@mail.ru
-            </a>
-            <br>
-            <a href="https://proza.ru/avtor/nadym7" class="myIcon" target="_blank">
-                <v-icon>mdi-book-open-page-variant-outline</v-icon> Проза.ру
-            </a>
-        </div>
+    <div class="pageWrapper">
+        <p class="myName">Андрей Мартынов</p>
+        <p class="myPosition">Писатель / Член Союза писателей / Школьный учитель</p>
+        <div class="underLine">&nbsp;</div>
+        <a href="mailto:nadym7@mail.ru" class="myIcon">
+            <v-icon>mdi-email</v-icon> nadym7@mail.ru
+        </a>
+        <a href="https://proza.ru/avtor/nadym7" class="myIcon" target="_blank">
+            <v-icon>mdi-book-open-page-variant-outline</v-icon> Проза.ру
+        </a>
     </div>
 </template>
 
@@ -34,9 +31,14 @@
 </script>
 
 <style>
-    .infWrapper{
-        margin: 25vh 5% 0 5% !important;
+    .pageWrapper{
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         text-align: center;
+        padding: 5%;
     }
 
     .myName{
@@ -45,8 +47,6 @@
         font-family: 'Gilroy' !important;
         font-weight: bold !important;
         margin: 0 !important;
-        position: relative;
-        z-index: 2;
     }
 
     .myPosition{
@@ -55,8 +55,6 @@
         font-family: 'Gilroy' !important;
         font-weight: normal !important;
         margin: 0 !important;
-        position: relative;
-        z-index: 2;
     }
 
     .underLine{

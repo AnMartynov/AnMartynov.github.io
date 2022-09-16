@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Books from '../views/Books.vue'
+import Sections from '../views/Sections.vue'
+import Section from '../views/Section.vue'
 import Reviews from '../views/Reviews.vue'
 import Comments from '../views/Comments.vue'
 
@@ -14,9 +15,14 @@ const routes = [
         component: Home
     },
     {
-        path: '/books',
-        name: 'Books',
-        component: Books
+        path: '/sections/:id',
+        name: 'Section',
+        component: Section
+    },
+    {
+        path: '/sections',
+        name: 'Sections',
+        component: Sections
     },
     {
         path: '/reviews',
@@ -27,6 +33,10 @@ const routes = [
         path: '/comments',
         name: 'Comments',
         component: Comments
+    },
+    {
+        path: '*', 
+        redirect: '/'
     },
 ]
 

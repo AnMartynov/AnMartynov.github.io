@@ -1,16 +1,13 @@
 <template>
-    <div>
-        <div class="infWrapper">
-            <p class="myName">Reviews</p>
-            <p class="myPosition">Школьный учитель / Писатель / Член Союза писателей</p>
-            <div class="underLine">&nbsp;</div>
-            <a href="mailto:nadym7@mail.ru" class="myIcon">
-                <v-icon>mdi-email</v-icon> nadym7@mail.ru
-            </a>
-            <br>
-            <a href="https://proza.ru/avtor/nadym7" class="myIcon" target="_blank">
-                <v-icon>mdi-book-open-page-variant-outline</v-icon> Проза.ру
-            </a>
+    <div class="pageWrapper2">
+        <p class="myTitle">Рецензии</p>
+
+        <div v-for="review in $store.state.reviews" 
+            :key="review.id"
+            class="commentWrap">
+            <p class="commentTitle">{{review.title}}</p>
+            <p class="commentText">{{review.text}}</p>
+            <p class="commentPerson">{{review.person}}</p>
         </div>
     </div>
 </template>

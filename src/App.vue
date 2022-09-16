@@ -32,8 +32,7 @@
                     v-model="drawer"
                     absolute
                     temporary
-                    right
-                >
+                    right>
                     <v-list-item>
                         <v-list-item-content>
                         <v-list-item-title class="text-h6">
@@ -49,21 +48,21 @@
                     <v-list
                         nav
                         dense>
-                    <v-list-item-group
-                        v-model="group"
-                        active-class="deep-purple--text text--accent-4">
-                        <v-list-item 
-                            v-for="link in links"
-                            :to="link.link"
-                            :key="link.id">
-                            <v-list-item-icon>
-                                <v-icon>{{link.icon}}</v-icon>
-                            </v-list-item-icon>
-                            <v-list-item-title>
-                                {{ link.title }}
-                            </v-list-item-title>
-                        </v-list-item>
-                    </v-list-item-group>
+                        <v-list-item-group
+                            v-model="group"
+                            active-class="red--text text--accent-4">
+                            <v-list-item 
+                                v-for="link in links"
+                                :to="link.link"
+                                :key="link.id">
+                                <v-list-item-icon>
+                                    <v-icon>{{link.icon}}</v-icon>
+                                </v-list-item-icon>
+                                <v-list-item-title>
+                                    {{ link.title }}
+                                </v-list-item-title>
+                            </v-list-item>
+                        </v-list-item-group>
                     </v-list>
                 </v-navigation-drawer>
             </v-main>
@@ -87,7 +86,7 @@
                 id: 1,
                 icon: 'mdi-book-open-page-variant-outline',
                 title: 'Книги',
-                link: '/books'
+                link: '/sections'
             },
             {
                 id: 2,
