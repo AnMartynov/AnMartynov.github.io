@@ -110,6 +110,19 @@ export default new Vuex.Store({
             }
         ],
 
+        bAll:[
+            {
+                id: 1,
+                link: 'https://bookbox.center/shop/?genre=&product=yetkhi-posobie-po-angliyskomu-yazyku/',
+                title: '1.jpg'
+            },
+            {
+                id: 2,
+                link: 'https://bookbox.center/shop/?genre=proza&product=muzykalnaya-istoriya',
+                title: '2.jpg'
+            }
+        ],
+
         comments:[
             {
                 id: 1,

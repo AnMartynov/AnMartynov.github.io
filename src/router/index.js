@@ -5,6 +5,7 @@ import Sections from '../views/Sections.vue'
 import Section from '../views/Section.vue'
 import Reviews from '../views/Reviews.vue'
 import Comments from '../views/Comments.vue'
+import AllBooks from '../views/AllBooks.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
         path: '/comments',
         name: 'Comments',
         component: Comments
+    },
+    {
+        path: '/allBooks',
+        name: 'AllBooks',
+        component: AllBooks
     },
     {
         path: '*', 

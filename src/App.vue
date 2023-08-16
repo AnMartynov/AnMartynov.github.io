@@ -86,7 +86,7 @@
                 id: 1,
                 icon: 'mdi-book-open-page-variant-outline',
                 title: 'Книги',
-                link: '/sections'
+                link: '/allBooks'
             },
             {
                 id: 2,
