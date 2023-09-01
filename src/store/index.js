@@ -126,18 +126,18 @@ export default new Vuex.Store({
         comments:[
             {
                 id: 1,
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                person: "Nick Kovtunov",
+                text: 'Юлия Хрущева, иллюстратор книги: "...я словно попала в необыкновенный мир, полный добра, любви и захватывающих приключений. При создании иллюстраций так увлеклась процессом, что время пролетело незаметно, и когда работа была готова, то захотелось продолжения. Все иллюстрации выполнены по тех-заданиям автора".',
+                person: "Юлия Хрущева, г. Екатеринбург",
             },
             {
                 id: 2,
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                person: "Nick Kovtunov",
+                text: "...сказка очень хороша. Добрая, яркая сказка для детей. Все правильно: ненцы пришли с юга на Ямал и встретили поморов, норманнов, которые жили по берегам больших рек, Обской губы и Карского моря. Молодец автор...",
+                person: "Иван Айваседо, коренной житель Ямала, шаман, пос. Тамбей",
             },
             {
                 id: 3,
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                person: "Nick Kovtunov",
+                text: "Сказка... поучительна, интересна по содержанию. В сказке много моментов, достойных подражания...",
+                person: "Валерий Мартынов, действительный член Академии русской словесности и изящных искусств им. Г.Р.Державина. Член СП России. Лауреат Литературной премии Губернатора Ямало-ненецкого национального округа. Почетный гражданин г. Надым. Ветеран Ямала",
             },
         ],
 
